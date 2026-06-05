@@ -39,13 +39,13 @@ const projects = [
     color: "#F59E0B",
   },
   {
-    tag: "FRONTEND PORTFOLIO",
+    tag: "Rouser Frontend Website",
     title: "My Frontend Projects",
     desc: "Collection of modern frontend applications built using React.js, Next.js, Tailwind CSS, animations, reusable components, and responsive UI/UX principles.",
     tech: [
       "Next.js", "React.js", "Tailwind CSS", "JavaScript", "Framer Motion", "Swiper.js", "AOS", "Responsive Design",
     ],
-    demo: "https://corporate-astrology.netlify.app/",
+    demo: "https://rouser-website.vercel.app/",
     github: "#",
     featured: false,
     color: "#8B5CF6",
