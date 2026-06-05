@@ -100,7 +100,7 @@ export default function Hero() {
         >
           {/* Left Content - Name and Role */}
           <div className="hero-left-content">
-            {/* Name with stylish font */}
+            {/* Name with Playfair Display font */}
             <div
               data-aos="fade-up"
               style={{
@@ -110,10 +110,10 @@ export default function Hero() {
               <h1
                 style={{
                   fontSize: "clamp(2.5rem, 7vw, 5rem)",
-                  fontWeight: 800,
+                  fontWeight: 700,
                   lineHeight: 1.1,
                   marginBottom: "0.5rem",
-                  fontFamily: "'Inter', 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif",
+                  fontFamily: "'Playfair Display', 'Georgia', 'Times New Roman', serif",
                   background: "linear-gradient(135deg, #ffffff 0%, var(--accent-cyan) 40%, var(--accent-green) 100%)",
                   backgroundClip: "text",
                   WebkitBackgroundClip: "text",
@@ -356,6 +356,7 @@ export default function Hero() {
                         fontSize: "clamp(1.8rem, 5vw, 2.5rem)",
                         fontWeight: "bold",
                         color: "white",
+                        fontFamily: "'Playfair Display', serif",
                       }}
                     >
                       Y
@@ -367,6 +368,7 @@ export default function Hero() {
                       fontWeight: 700,
                       marginBottom: "0.25rem",
                       color: "var(--text-primary)",
+                      fontFamily: "'Inter', sans-serif",
                     }}
                   >
                     Full Stack Web Developer
@@ -488,7 +490,7 @@ export default function Hero() {
                   whiteSpace: "nowrap",
                 }}
               >
-              Tech Stack  🚀 
+                Tech Stack 🚀
               </div>
             </div>
           </div>
@@ -562,6 +564,9 @@ export default function Hero() {
           100% { transform: translateY(12px); opacity: 0; }
         }
         
+        /* Import Playfair Display Font */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+        
         /* Desktop Layout */
         @media (min-width: 969px) {
           .hero-grid-layout {
@@ -622,7 +627,7 @@ export default function Hero() {
         /* Small Mobile Devices */
         @media (max-width: 640px) {
           .hero-grid-layout {
-            padding: 60px 1rem !important;
+            padding: 0px 1rem !important;
           }
           
           .hero-left-content .hero-stats {
