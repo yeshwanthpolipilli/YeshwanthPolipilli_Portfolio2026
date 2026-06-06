@@ -5,15 +5,37 @@ const projects = [
   {
     tag: "PROPERTY MANAGEMENT",
     title: "Property Source Hub",
-    desc: "A scalable property management web application with Stripe payments, JWT authentication, and optimized REST APIs delivering 35% faster response times.",
+    desc: "Contributed to the development of a scalable property management platform using React.js, Next.js, Node.js, Express.js, PostgreSQL, and Redis. Implemented authentication, payment integration, and API optimizations",
     tech: [
       "Node.js", "Express.js", "React.js", "PostgreSQL", "Redis", "Next.js", "JWT", "Stripe", "PM2", "Nginx",
     ],
     demo: "https://propertysourcehub.com/",
     github: "#",
     featured: true,
-    color: "#00D4AA",
+    color: "#d400c6",
   },
+{
+  tag: "BUSINESS GROWTH PLATFORM",
+  title: "Bizzcurve",
+  desc: "A scalable business growth platform providing funding, business loans, mortgages, insurance, AI solutions, and professional services. Developed using modern full-stack technologies with secure authentication, optimized APIs, analytics integration, and SEO-focused architecture.",
+
+  tech: [
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "JWT",
+    "REST APIs",
+    "Google Analytics",
+    "SEO"
+  ],
+
+  demo: "https://www.bizzcurve.com/",
+  github: "#",
+  featured: true,
+  color: "#00D4AA",
+},
   {
     tag: "SAAS PLATFORM",
     title: "Clearstay360",

@@ -21,6 +21,18 @@ const experiences = [
         ],
       },
       {
+  name: "Bizzcurve",
+  points: [
+    "Developed and maintained a business growth platform using React.js, Next.js, Node.js, Express.js, and PostgreSQL",
+    "Built scalable REST APIs and optimized backend services to support funding, finance, mortgage, insurance, and AI solution workflows",
+    "Implemented secure JWT-based authentication and role-based access control for user management",
+    "Integrated Google Analytics, Meta Pixel, and SEO best practices to improve lead generation and website visibility",
+    "Designed responsive and SEO-friendly user interfaces using Next.js, improving user engagement across devices",
+    "Optimized database queries and application performance to ensure fast page load times and reliable user experience",
+    "Collaborated with business stakeholders to develop landing pages and lead-capture workflows for funding and financial services campaigns",
+  ],
+},
+      {
         name: "Clearstay360 — SaaS Platform",
         points: [
           "Built a scalable SaaS platform for rental property management",
